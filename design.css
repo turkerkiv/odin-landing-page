@@ -199,3 +199,48 @@ header {
     flex-basis: 47%;
     border: 1px solid white;
 }
+
+/* header finished */
+
+.main-section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+    height: 50vh;
+    width: 100%;
+}
+
+.main-section1 h2 {
+    font-size: 2.3rem;
+    background-color: red;
+    margin: 12% 0;
+}
+
+.main-section1-images {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    min-height: 50%;
+    background-color: cornflowerblue;
+    width: 55%;
+    justify-content: space-between;
+}
+
+/* TODO change naming of this inage */
+.main-section1-image {
+    flex-basis: 20%;
+    min-width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+.main-section1-image img {
+    border: 1px solid black;
+    width: 100%;
+    flex-basis: 75%;
+    min-height: 75%;
+}
