@@ -133,3 +133,69 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+header {
+    background-color: #1f2937;
+    padding: 0 15%;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 7vh;
+    width: 100%;
+}
+
+/* TODO change colors */
+/* TODO change font */
+
+.header-nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-nav-list li {
+    color: rgb(255, 255, 255);
+    padding-left: 1em;
+}
+
+.header-section h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+.header-section p {
+    color: white;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: row;
+    padding: 10% 0;
+}
+
+.header-section-promotion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-basis: 50%;
+    margin-right: 3%;
+}
+
+.header-section-promotion * {
+    margin: 1% 0;
+}
+
+.header-section-promotion button {
+    border-radius: 0.45em;
+    padding: 0.40em 1.75em;
+    font-size: 1em;
+}
+
+.header-section-img {
+    flex-basis: 47%;
+    border: 1px solid white;
+}
